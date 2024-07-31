@@ -101,7 +101,7 @@ export default function Home() {
             className="font-weight-bold"
             style={{ fontFamily: "Arial", fontSize: "1.3rem" }}
           >
-            ICCSST - 2025 <br />
+            ICCSST - 2026 <br />
             <div style={{ marginTop: "1rem" }}>
               <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem", color: "nk-blue-bg" }}>
             INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
