@@ -219,6 +219,7 @@ h3 {
 .oman{
   width: 8rem;
 }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px),
   only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .oman{

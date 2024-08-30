@@ -14,6 +14,10 @@ import bg from "../../assets/bg.svg";
 import si from "../../assets/callpapers.svg";
 import poster from "../../assets/poster.png";
 // import oman from "../../assets/OMAN.png";
+import texila from "../../assets/Texila.png";
+import UBuraimi from "../../assets/UBuraimi.png";
+import Ucinicinnati from "../../assets/resizeCincinnati.png";
+import Unizwaz from "../../assets/Unizwaz.png";
 
 export default function Home() {
   const [timerDays, setTimerDays] = useState("00");
@@ -72,21 +76,65 @@ export default function Home() {
       >
         <div
           className="row justify-content-between align-items-center m-0 p-0"
-        // style={{ display: "inline", alignContent: "flex-start" }}
+          // style={{ display: "inline", alignContent: "flex-start" }}
         >
           <div className="col">
             <img
               src={oman}
-              alt="Christ (Deemed to be) University Logo"
+              alt="modern college of bussines and science"
               width="208"
               className="align-text-top img-fluid"
             />
             {/* <img src={oman} alt="..."  width="208" className="align-text-top oman" /> */}
           </div>
           <div className="col">
-            <marquee className="font-weight-bold"
-              style={{ fontFamily: "Nunito", fontWeight: "600", fontSize: "1.3rem", color: "nk-blue-bg" }}>Results for Review Submission were Published on April 21, 2023</marquee>
+            <img
+              src={texila}
+              alt="Texila American University Zambia"
+              width="208"
+              className="align-text-top img-fluid"
+            />
           </div>
+
+          <div className="col">
+            <img
+              src={UBuraimi}
+              alt="University of Buraimi"
+              width="208"
+              height="200"
+              className="align-text-top img-fluid"
+            />
+          </div>
+          <div className="col">
+            <img
+              src={Ucinicinnati}
+              alt="University of Cincinnati"
+              width="208"
+              className="align-text-top img-fluid"
+            />
+          </div>
+          <div className="col">
+            <img
+              src={Unizwaz}
+              alt="Texila American University Zambia"
+              width="208"
+              className="align-text-top img-fluid"
+            />
+          </div>
+          <div className="col">
+            {/* <marquee
+              className="font-weight-bold"
+              style={{
+                fontFamily: "Nunito",
+                fontWeight: "600",
+                fontSize: "1.3rem",
+                color: "nk-blue-bg",
+              }}
+            >
+              Results for Review Submission were Published on April 21, 2023
+            </marquee> */}
+          </div>
+          {/* {CHRIST LOGO} */}
           <div className="col text-end ">
             <img
               src="https://christuniversity.in/images/logo.jpg"
@@ -96,6 +144,21 @@ export default function Home() {
             />
           </div>
         </div>
+        <marquee
+  className="font-weight-bold"
+  style={{
+    fontFamily: "Nunito",
+    fontWeight: "600",
+    fontSize: "1.3rem",
+    color: "nk-blue-bg",
+    width: "50%",
+    margin: "0 auto", 
+    display: "block", 
+  }}
+>
+  Results for Review Submission were Published on April 21, 2023
+</marquee>
+
         <div className="col-12 mt-5">
           <h1
             className="font-weight-bold"
@@ -103,14 +166,29 @@ export default function Home() {
           >
             ICCSST - 2025 <br />
             <div style={{ marginTop: "1rem" }}>
-              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem", color: "nk-blue-bg" }}>
-            INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
-            AND SUSTAINABLE TECHNOLOGIES</span></div>
+              <span
+                style={{
+                  fontWeight: "600",
+                  fontSize: "1.7rem",
+                  marginTop: "1rem",
+                  color: "nk-blue-bg",
+                }}
+              >
+                INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND
+                SUSTAINABLE TECHNOLOGIES
+              </span>
+            </div>
           </h1>
           <div style={{ marginTop: "1rem" }}>
-            <h3 style={{ fontFamily: "Arial", fontSize: "1.2rem",fontWeight:550 }}>
+            <h3
+              style={{
+                fontFamily: "Arial",
+                fontSize: "1.2rem",
+                fontWeight: 550,
+              }}
+            >
               SULTANATE OF OMAN | REPUBLIC OF INDIA
-              </h3>
+            </h3>
           </div>
         </div>
         <div className="col-md-6 col-12 m-0 p-0 py-1">
@@ -214,19 +292,20 @@ export default function Home() {
           are bringing out new technologies that are both sustainable and
           affordable to the millions who consume them or make a commodity of
           them. */}
-
-
-          This conference is conducted jointly by CHRIST (Deemed to be University),
-          Bangalore, India, and Modern College of Business and Science, Muscat, Oman.
-          It would provide an opportunity to spotlight research ideas to an international
-          community as well as be a platform to get abreast on the latest trends in the field
-          of Business and Computing Sciences. In the last three decades, numerous technologies
-          have surfaced replacing the older ones and also getting themselves replaced rapidly,
-          while on the other hand, alternate technologies with competitive affordability also
-          have been produced swiftly. Therefore, the challenge for new technology is its
-          sustainability and affordability. This conference aims in exploring research outputs
-           that are bringing out new technologies that are both sustainable and affordable to
-           the millions who consume them or make a commodity of them.{" "}
+          This conference is conducted jointly by CHRIST (Deemed to be
+          University), Bangalore, India, and Modern College of Business and
+          Science, Muscat, Oman. It would provide an opportunity to spotlight
+          research ideas to an international community as well as be a platform
+          to get abreast on the latest trends in the field of Business and
+          Computing Sciences. In the last three decades, numerous technologies
+          have surfaced replacing the older ones and also getting themselves
+          replaced rapidly, while on the other hand, alternate technologies with
+          competitive affordability also have been produced swiftly. Therefore,
+          the challenge for new technology is its sustainability and
+          affordability. This conference aims in exploring research outputs that
+          are bringing out new technologies that are both sustainable and
+          affordable to the millions who consume them or make a commodity of
+          them.{" "}
         </p>
         <p style={{ textAlign: "justify" }}>
           {/* It aims to offer an international platform for academicians,
@@ -235,14 +314,12 @@ export default function Home() {
           with global experts. Such gathering will also help the delegates to
           establish research or business relations as well as to find
           international linkage for future collaborations in their career path. */}
-
           It aims to offer an international platform for academicians,
           researchers, engineers, entrepreneurs, industry experts, and budding
-          research scholars around the world to share their research findings with
-          global experts. Such a gathering will also help the delegates to establish
-          research or business relations as well as to find international linkage for
-          future collaborations in their career path.
-
+          research scholars around the world to share their research findings
+          with global experts. Such a gathering will also help the delegates to
+          establish research or business relations as well as to find
+          international linkage for future collaborations in their career path.
         </p>
 
         <p style={{ textAlign: "justify", paddingBottom: "20px" }}>
@@ -252,13 +329,12 @@ export default function Home() {
           There will be two venues for the conference; Modern College of
           Business and Science, Muscat, Oman and CHRIST (Deemed to be
           University), Bangalore, India. */}
-
-          This Conference will be carried out in a hybrid format, allowing world-scattered
-          researchers, academicians, business and industry professionals, and policymakers
-          to participate in this Conference. There will be two venues for the conference;
-          Modern College of Business and Science, Muscat, Oman, and CHRIST (Deemed to be University),
-          Bangalore, India.
-          {" "}
+          This Conference will be carried out in a hybrid format, allowing
+          world-scattered researchers, academicians, business and industry
+          professionals, and policymakers to participate in this Conference.
+          There will be two venues for the conference; Modern College of
+          Business and Science, Muscat, Oman, and CHRIST (Deemed to be
+          University), Bangalore, India.{" "}
         </p>
       </div>
 
@@ -541,7 +617,7 @@ export default function Home() {
         <div
           id="experts"
           className="row m-0 p-0 align-items-center "
-        // style={{ height: "14rem" }}
+          // style={{ height: "14rem" }}
         >
           <img
             src={poster}
@@ -549,7 +625,6 @@ export default function Home() {
             className="align-text-top img-fluid center"
             style={{ width: "600px" }}
           />
-
         </div>
       </div>
 
@@ -559,7 +634,7 @@ export default function Home() {
         <div
           id="experts"
           className="row m-0 p-0 align-items-center "
-        // style={{ height: "14rem" }}
+          // style={{ height: "14rem" }}
         >
           <div className="col-md-3 col-12 m-0 p-0 text-center">
             <h3>KEYNOTE SPEAKERS</h3>
@@ -581,8 +656,10 @@ export default function Home() {
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
                 <h5>Dr. Zahid Akhtar</h5>
                 <p>
-                  State University of New York Polytechnic Institute C135<br />
-                  USA<br />
+                  State University of New York Polytechnic Institute C135
+                  <br />
+                  USA
+                  <br />
                   {/* Email: mario.jose.divan.koller@intel.com  */}
                 </p>
               </div>
@@ -598,13 +675,10 @@ export default function Home() {
                   {/* Email: dsingh@nust.na */}
                 </p>
               </div>
-
-
             </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 }
