@@ -1,6 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import i1 from "../../assets/callpapers.svg";
+
 import { scroller } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
 export default function Contact() {
   return (
     <>
@@ -13,13 +18,15 @@ export default function Contact() {
             <br />
             <br />
           </div>
-          <div className="col-10" style={{ fontFamily: "Nunito" }}>
-
-          </div>
+          <div className="col-10" style={{ fontFamily: "Nunito" }}></div>
         </div>
 
         <div className="col-md-5 col-12 m-0 mt-5 p-0 bg-white h-100 ">
-          <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." />
+          <img
+            className="m-0 w-100 justify-content-end media-query"
+            src={i1}
+            alt="..."
+          />
         </div>
 
         <div className="mt-5 justify-content-center text-center" id="contact">
@@ -28,7 +35,7 @@ export default function Contact() {
             <div class="col-md-4 col-8">
               <label for="inputName" class="visually-hidden">
                 Name
-                  </label>{" "}
+              </label>{" "}
               <input
                 name="Name"
                 type="text"
@@ -40,7 +47,7 @@ export default function Contact() {
             <div class="col-md-4 col-8">
               <label for="inputEmail" class="visually-hidden">
                 Email
-            </label>{" "}
+              </label>{" "}
               <input
                 type="text"
                 class="form-control"
@@ -52,7 +59,7 @@ export default function Contact() {
             <div class="col-md-4 col-8">
               <label for="inputQuery" class="visually-hidden">
                 Your Query
-            </label>{" "}
+              </label>{" "}
               <input
                 type="text"
                 class="form-control"
@@ -86,7 +93,8 @@ export default function Contact() {
                   formData.set("Name", name);
                   formData.set("Email", email);
                   formData.set("Query", query);
-                  document.getElementById('contact').innerHTML = "<h2>Sending...</h2>"
+                  document.getElementById("contact").innerHTML =
+                    "<h2>Sending...</h2>";
                   return fetch(
                     `https://script.google.com/macros/s/AKfycbxMzkx94W_iDvWEE77cTx6X9o4L3-3iaNUnzuwRnpwjkf9BH5gooarpGeT8yh1_gFTB/exec`,
                     {
@@ -96,72 +104,138 @@ export default function Contact() {
                       },
                       body: formData,
                     }
-
                   )
                     .then((res) => {
-                      document.getElementById('contact').innerHTML = "<h2>Thankyou for contacting!</h2>"
+                      document.getElementById("contact").innerHTML =
+                        "<h2>Thankyou for contacting!</h2>";
                     })
                     .catch((err) => console.log(err));
                 }}
               >
-                Send</button>
+                Send
+              </button>
 
-              <p className="mt-3">You can send your queries to the following email id iccsst@conference.christuniversity.in</p>
+              <p className="mt-3">
+                You can send your queries to the following email id
+                iccsst@conference.christuniversity.in
+              </p>
             </div>
           </div>
         </div>
-
-
       </div>
       <div className="row m-3 p-2 align-items-center " id="mainpage">
-        <div className="col-md-7  mt-5  col-12 m-0 p-0">
+        <div className="col-md-4  my-5  col-4 m-0 p-0">
           <div>
             <br />
             <br />
-            <p style={{ fontSize: "1.2rem" }}>CHRIST (Deemed to be University)
-            <br />
+            <p style={{ fontSize: "1.2rem" }}>
+              CHRIST (Deemed to be University)
               <br />
-            Address:
-            <br />
-            Dharmaram College Post, Hosur Road,
-            <br />
-            Bengaluru - 560029, Karnataka, India
-            <br />
               <br />
-            Contact:
-            <br />
-            Dr. Chandra J - +91 98863 06307 <br />
-            Dr. Joseph Mani - +96 82458 3566
+              Address:
+              <br />
+              Dharmaram College Post, Hosur Road,
+              <br />
+              Bengaluru - 560029, Karnataka, India
+              <br />
+              <br />
+              Contact:
+              <br />
+              Dr. Chandra J - +91 98863 06307 <br />
+              Dr. Joseph Mani - +96 82458 3566
             </p>
           </div>
-          <div className="col-10" style={{ fontFamily: "Nunito" }}>
-          </div>
+          <div className="col-10" style={{ fontFamily: "Nunito" }}></div>
         </div>
 
-        <div className="col-md-5 col-12 m-0  p-0 bg-white h-100 ">
-          <p style={{ fontSize: "1.2rem" }}>
-            <br />
-            <br />
-        Modern College of Business and Science
-        <br />
-            <br />
-        Address:
-        <br />
-        Bawshar street Muscat Bawshar Al-Khuwair 133 Sultanate of Oman
-
-        <br />
-            <br />
-
-        Contact: +968-24583583
-        </p>
+        <div className="col-md-8 col-12 mt-5  p-0 bg-white h-100 ">
+          <table className="table">
+            <tbody>
+              {/* First Row */}
+              <tr>
+                <td style={{ border: "none" }}>
+                  <div>
+                    <p style={{ fontSize: "1.2rem" }}>
+                      Lincoln University College
+                    </p>
+                    <div className="d-flex flex-column">
+                      <p>
+                        <FontAwesomeIcon icon={faLocationDot} /> Location
+                        Address
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} /> Contact Number
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td style={{ border: "none" }}>
+                  <div>
+                    <p style={{ fontSize: "1.2rem" }}>University of Buraimi</p>
+                    <div className="d-flex flex-column">
+                      <p>
+                        <FontAwesomeIcon icon={faLocationDot} /> Location
+                        Address
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} /> Contact Number
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              {/* Second Row */}
+              <tr>
+                <td style={{ border: "none" }}>
+                  <div>
+                    <p style={{ fontSize: "1.2rem" }}>Another College</p>
+                    <div className="d-flex flex-column">
+                      <p>
+                        <FontAwesomeIcon icon={faLocationDot} /> Location
+                        Address
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} /> Contact Number
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td style={{ border: "none" }}>
+                  <div>
+                    <p style={{ fontSize: "1.2rem" }}>Yet Another College</p>
+                    <div className="d-flex flex-column">
+                      <p>
+                        <FontAwesomeIcon icon={faLocationDot} /> Location
+                        Address
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} /> Contact Number
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              {/* Third Row Spanning Across Two Columns */}
+              <tr>
+                <td style={{ border: "none" }} colSpan="2">
+                  <div>
+                    <p style={{ fontSize: "1.2rem" }}>Final Location</p>
+                    <div className="d-flex flex-column">
+                      <p>
+                        <FontAwesomeIcon icon={faLocationDot} /> Location
+                        Address
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faPhone} /> Contact Number
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-
-
       </div>
-
-
     </>
-
-
-  )
+  );
 }

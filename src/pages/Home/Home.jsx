@@ -18,6 +18,7 @@ import texila from "../../assets/Texila.png";
 import UBuraimi from "../../assets/UBuraimi.png";
 import Ucinicinnati from "../../assets/resizeCincinnati.png";
 import Unizwaz from "../../assets/Unizwaz.png";
+import lincoln from "../../assets/lincoln university.png";
 
 export default function Home() {
   const [timerDays, setTimerDays] = useState("00");
@@ -95,16 +96,6 @@ export default function Home() {
               className="align-text-top img-fluid"
             />
           </div>
-
-          <div className="col">
-            <img
-              src={UBuraimi}
-              alt="University of Buraimi"
-              width="208"
-              height="200"
-              className="align-text-top img-fluid"
-            />
-          </div>
           <div className="col">
             <img
               src={Ucinicinnati}
@@ -115,12 +106,31 @@ export default function Home() {
           </div>
           <div className="col">
             <img
-              src={Unizwaz}
-              alt="Texila American University Zambia"
+              src={lincoln}
+              alt="University of Cincinnati"
               width="208"
               className="align-text-top img-fluid"
             />
           </div>
+          <div className="col">
+            <img
+              src={UBuraimi}
+              alt="University of Buraimi"
+              width="208"
+              height="200"
+              className="align-text-top img-fluid"
+            />
+          </div>
+
+          <div className="col">
+            <img
+              src={Unizwaz}
+              alt="University of nizwaz"
+              width="208"
+              className="align-text-top img-fluid"
+            />
+          </div>
+
           <div className="col">
             {/* <marquee
               className="font-weight-bold"
@@ -145,19 +155,19 @@ export default function Home() {
           </div>
         </div>
         <marquee
-  className="font-weight-bold"
-  style={{
-    fontFamily: "Nunito",
-    fontWeight: "600",
-    fontSize: "1.3rem",
-    color: "nk-blue-bg",
-    width: "50%",
-    margin: "0 auto", 
-    display: "block", 
-  }}
->
-  Results for Review Submission were Published on April 21, 2023
-</marquee>
+          className="font-weight-bold"
+          style={{
+            fontFamily: "Nunito",
+            fontWeight: "600",
+            fontSize: "1.3rem",
+            color: "nk-blue-bg",
+            width: "50%",
+            margin: "0 auto",
+            display: "block",
+          }}
+        >
+          Results for Review Submission were Published on April 21, 2025
+        </marquee>
 
         <div className="col-12 mt-5">
           <h1
@@ -185,9 +195,11 @@ export default function Home() {
                 fontFamily: "Arial",
                 fontSize: "1.2rem",
                 fontWeight: 550,
+                textTransform: "uppercase",
               }}
             >
-              SULTANATE OF OMAN | REPUBLIC OF INDIA
+              Republic of Zambia | United States of America | Federation of
+              Malaysia | Sultanate of Oman
             </h3>
           </div>
         </div>
@@ -350,7 +362,8 @@ export default function Home() {
           className="col-md-9 col-12 m-0 p-4 nk-bg-1"
           style={{ fontFamily: "Nunito" }}
         >
-          <div className="row m-0 p-4 align-items-center">
+          {/* change the padding-inline-block here */}
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">
                 Last date for submission of Full-Length paper
@@ -360,7 +373,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">25 March 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Review Submission</h5>
             </div>
@@ -368,7 +381,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">15 April 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
@@ -376,7 +389,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">20 April 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
@@ -384,7 +397,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">03 May 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
@@ -392,7 +405,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl"> 08 & 09th May 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center ">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Result</h5>
             </div>

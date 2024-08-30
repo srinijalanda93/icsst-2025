@@ -23,7 +23,7 @@ export default function CallForPapers() {
           <div>
             <br />
             <br />
-            <h1 >Call for Papers</h1>
+            <h1>Call for Papers</h1>
             <br />
             <br />
           </div>
@@ -38,20 +38,27 @@ export default function CallForPapers() {
               attractive industry program aimed at practitioners, with keynotes
               and panels from prominent research, industry and government
               leaders, business and industry panels, and technological exhibits. */}
-
-              The First International Conference on Computational Science and Sustainable
-              Technologies (ICCSST 2023) will be held parallelly at CHRIST (Deemed to be University),
-              Bangalore, India, and Modern College of Business and Science, Muscat, Oman.
-              The technical program comprises many symposia and a variety of tutorials and workshops.
-              ICCSST 2023 will also include an attractive industry program aimed at practitioners,
-              with keynotes and panels from prominent research, industry, and government leaders,
-              business and industry panels, and technological exhibits.
+              The First International Conference on Computational Science and
+              Sustainable Technologies (ICCSST 2025) will be held parallelly at
+              CHRIST (Deemed to be University), Bangalore, India, and Modern
+              College of Business and Science, Muscat, Oman. The technical
+              program comprises many symposia and a variety of tutorials and
+              workshops. ICCSST 2025 will also include an attractive industry
+              program aimed at practitioners, with keynotes and panels from
+              prominent research, industry, and government leaders, business and
+              industry panels, and technological exhibits.
               <br />
               <br />
-              The objective of this Conference is to provide opportunities for collaboration and reflection enhancing the ability of applying Information Technology for sustainability. This Conference provide a unique forum for the academicians, researchers, technocrats and industry experts to exchange ideas and experience on research problems of recent advancements in the field of Computer Science.
-              It is planned to publish the proceedings  with Springer in their Communications in Computer and Information Science series (final approval pending).
+              The objective of this Conference is to provide opportunities for
+              collaboration and reflection enhancing the ability of applying
+              Information Technology for sustainability. This Conference provide
+              a unique forum for the academicians, researchers, technocrats and
+              industry experts to exchange ideas and experience on research
+              problems of recent advancements in the field of Computer Science.
+              It is planned to publish the proceedings with Springer in their
+              Communications in Computer and Information Science series (final
+              approval pending).
             </p>
-
           </div>
         </div>
 
@@ -63,28 +70,51 @@ export default function CallForPapers() {
               <div className="col-6 m-0 p-3">
                 <h3>Paper Submission Template</h3>
 
-                <p style={{ fontFamily: "Nunito" }}>Your paper should be in the range of 8 to 13 pages.</p>
                 <p style={{ fontFamily: "Nunito" }}>
-                  Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number.
+                  Your paper should be in the range of 8 to 13 pages.
                 </p>
-                <button className="btn btn-primary " style={{ fontFamily: "Nunito" }}>
-                  <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
+                <p style={{ fontFamily: "Nunito" }}>
+                  Depending on the reviewers comments accepted papers will be
+                  recommended for Springer CCIS (Scopus Indexed) / Mapana
+                  Journal of science (UGC care list - Group I) / proceeding with
+                  ISBN number.
+                </p>
+                <button
+                  className="btn btn-primary "
+                  style={{ fontFamily: "Nunito" }}
+                >
+                  <a
+                    href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
                     Download Template
-              </a>
+                  </a>
                 </button>
               </div>
               <div className="col-6 m-0 p-3 ml-2">
                 <h3>Paper Submission</h3>
-                <p style={{ fontFamily: "Nunito" }}>Click the button to submit your paper.</p>
-                <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
-                  <a href="https://cmt3.research.microsoft.com/ICCSST2023/" style={{ textDecoration: "none", color: "white" }}>
+                <p style={{ fontFamily: "Nunito" }}>
+                  Click the button to submit your paper.
+                </p>
+                <button
+                  className="btn btn-primary"
+                  style={{ fontFamily: "Nunito" }}
+                >
+                  <a
+                    href="https://cmt3.research.microsoft.com/ICCSST2023/"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
                     Submit your paper here
                   </a>
-                </button><br /><br />
-                <p style={{ fontFamily: "Nunito" }}>Submit your paper by clicking the above button (Microsoft CMT) or mail it to iccsst@conference.christuniversity.in</p>
+                </button>
+                <br />
+                <br />
+                <p style={{ fontFamily: "Nunito" }}>
+                  Submit your paper by clicking the above button (Microsoft CMT)
+                  or mail it to iccsst@conference.christuniversity.in
+                </p>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -111,19 +141,26 @@ export default function CallForPapers() {
           </button>
         </div> */}
 
-
         <div className="col-md-12 col-12 m-0 p-1 bg-white h-100 ">
           <br />
           <h3>Author's Instruction</h3>
-          <p style={{ fontFamily: "Nunito" }}>Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
+          <p style={{ fontFamily: "Nunito" }}>
+            Particularly we would like to ask the authors to apply Springer
+            conference paper templates, which can be find in the below button
+          </p>
           <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
-            <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" style={{ textDecoration: "none", color: "white" }}>
+            <a
+              href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0"
+              style={{ textDecoration: "none", color: "white" }}
+            >
               Guidelines
             </a>
           </button>
-          <br /><br />
-          <p style={{ fontFamily: "Nunito" }}>Abstracted and Indexed in:
-          <ul>
+          <br />
+          <br />
+          <p style={{ fontFamily: "Nunito" }}>
+            Abstracted and Indexed in:
+            <ul>
               <li>DBLP</li>
               <li>EI Compendex</li>
               <li>INSPEC</li>
@@ -134,15 +171,12 @@ export default function CallForPapers() {
               <li>zbMATH</li>
             </ul>
           </p>
-
         </div>
 
         <div className="row m-0 p-0 ">
           <div className="col-7  p-0 "></div>
           <div className="col-md-3  w-40  p-0 mt-3">
-            <div className=" text-center border-0 m-0 p-0">
-
-            </div>
+            <div className=" text-center border-0 m-0 p-0"></div>
           </div>
         </div>
       </div>
@@ -466,7 +500,11 @@ export default function CallForPapers() {
             and other Personal area networks.
           </div>
         </div>
-        <div className="col-md-12 m-0  mt-4 p-3" style={{ textAlign: "center" }} id="subscribe">
+        <div
+          className="col-md-12 m-0  mt-4 p-3"
+          style={{ textAlign: "center" }}
+          id="subscribe"
+        >
           <h2>
             {/* Submission link will be open soon. Subscribe to us for more updates */}
             Submit your details for further updates regarding the Conference
@@ -521,7 +559,8 @@ export default function CallForPapers() {
                   }
                   formData.set("Name", name);
                   formData.set("Email", email);
-                  document.getElementById('subscribe').innerHTML = "<h2>Sending...</h2>"
+                  document.getElementById("subscribe").innerHTML =
+                    "<h2>Sending...</h2>";
                   return fetch(
                     `https://script.google.com/macros/s/AKfycbzE0KZCrl_HVQvWSakbF5I1i-s46eo2tyAPIsC8yMtZnOf28-spRys5Tlwbjig1wbwD/exec`,
                     {
@@ -533,8 +572,8 @@ export default function CallForPapers() {
                     }
                   )
                     .then((response) => {
-                      document.getElementById('subscribe').innerHTML = "<h2>Thankyou for subscribing.</h2>"
-
+                      document.getElementById("subscribe").innerHTML =
+                        "<h2>Thankyou for subscribing.</h2>";
                     })
                     .catch((err) => console.log(err));
                 }}

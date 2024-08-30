@@ -1,26 +1,29 @@
-
+tr,
+td {
+  border-style: none;
+}
 
 .bg-christ {
   background: #13386d;
-  color: #C4DAD8;
+  color: #c4dad8;
 }
-.bg-christ>div{
-	font-weight: 500;
+.bg-christ > div {
+  font-weight: 500;
 }
 .christ-blue {
   color: #183276;
 }
 @media (max-width: 400px) {
-  .media-query{
+  .media-query {
     display: none;
-	}
-	.fontControl{
-		font-size: 15px;
-	}
+  }
+  .fontControl {
+    font-size: 15px;
+  }
 }
 
 .nk-btn {
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   font-family: Nunito;
   color: white;
   cursor: pointer;
@@ -29,14 +32,14 @@
 }
 .nk-btn:hover {
   background-color: #f77140f4;
-  color:black !important;
+  color: black !important;
 }
 
 .nk-blue {
   color: #183276;
 }
 .nk-blue-bg {
-  background-color:#13386d;
+  background-color: #13386d;
 }
 
 .nk-black {
@@ -57,7 +60,7 @@
   color: #2c9355;
 }
 .nk-yellow-bg {
-  background-color:#f1b940f7;
+  background-color: #f1b940f7;
 }
 
 .nk-yello {
@@ -66,9 +69,9 @@
 .nk-yello-bg {
   background-color: #ebd543;
 }
-.textColorHour{
-	color:black;
-	font-weight: 600;
+.textColorHour {
+  color: black;
+  font-weight: 600;
 }
 
 .nk-bg-1 {
@@ -78,10 +81,10 @@
   background-color: #110101;
 }
 .nk-bg-3 {
-  background-color: #F77748;
+  background-color: #f77748;
 }
 .nk-bg-4 {
-  background-color: #4E2953;
+  background-color: #4e2953;
 }
 .nk-bg-5 {
   background-color: #183276;
@@ -90,7 +93,7 @@
   background-color: #1140dc;
 }
 .nk-bg-7 {
-  background-color: #EDB641;
+  background-color: #edb641;
 }
 .nk-bg-8 {
   background-color: #c85d20;
@@ -167,42 +170,40 @@
 .nk-bg-31 {
   background-color: #c87f55;
 }
-.nk-bg-32
-{
-  background-color:#DB9268;
+.nk-bg-32 {
+  background-color: #db9268;
 }
-.nk-bg-33
-{
-  background-color:#13386d;
+.nk-bg-33 {
+  background-color: #13386d;
   /* #B5683C */
 }
-#dates{
-	border-radius: 2%;
+#dates {
+  border-radius: 2%;
 }
-.AI,.CaPaFoIm{
-	margin-top:23px !important;
-	margin-inline:23px !important;
+.AI,
+.CaPaFoIm {
+  margin-top: 23px !important;
+  margin-inline: 23px !important;
 }
 .border-bottom-custom {
-	border-bottom: 1px solid #fbfbfef0 !important; 
-	box-sizing: border-box !important;
-	padding-inline: 2% !important;
-	padding-block: 3% !important;
-  }
-  
-.pt-bold{
-  font-weight:"bold";
+  border-bottom: 1px solid #fbfbfef0 !important;
+  box-sizing: border-box !important;
+  padding-inline: 2% !important;
+  padding-block: 3% !important;
+}
+
+.pt-bold {
+  font-weight: "bold";
   font-size: "50px";
-  
 }
 @font-face {
   font-family: Caslon;
   src: url(../public/CaslonBold.ttf);
 }
 #key :hover {
-	color: red;
+  color: red;
 
-	cursor: pointer;
+  cursor: pointer;
 }
 /*
 .card-title :hover {
@@ -212,32 +213,31 @@
 
 h3 {
   font-family: myFirstFont;
- color:black;
+  color: black;
 }
 
-
-.oman{
+.oman {
   width: 8rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px),
   only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .oman{
+  .oman {
     width: 3rem;
   }
-  .no-mob{
+  .no-mob {
     display: none;
-	}
-	.separate{
-		display: flex;
-		width: 600px;
-		flex-direction: column;
-		text-align: justify;
-	}
+  }
+  .separate {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    text-align: justify;
+  }
 }
 
-.nk-shadow{
-  box-shadow: .2rem .2rem gray;
+.nk-shadow {
+  box-shadow: 0.2rem 0.2rem gray;
 }
 
 /*justify content */
@@ -253,174 +253,137 @@ h3 {
   width: 50%;
 }
 
-.table-striped>tbody>tr:nth-child(odd)>td,
-.table-striped>tbody>tr:nth-child(odd)>th {
- background-color: #f3f1ff;
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f3f1ff;
 }
 
 table.table-bordered > thead > tr > th,
 table.table-bordered > tbody > tr > th,
-table.table-bordered > tbody > tr > td
-{
-	border:2px solid black;
-	padding: 10px;
+table.table-bordered > tbody > tr > td {
+  border: 2px solid black;
+  padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Main button styles */
 .btn-nk {
-	background-color: var(--bg1);
-	color: var(--fg1);
-	display: grid;
-	place-items: center;
-		font: 1em/1.5 Nunito, sans-serif;
+  background-color: var(--bg1);
+  color: var(--fg1);
+  display: grid;
+  place-items: center;
+  font: 1em/1.5 Nunito, sans-serif;
 
-	--hue: 223;
-	--bg1: hsl(var(--hue),10%,90%);
-	--bg2: hsl(var(--hue),10%,80%);
-	--fg1: hsl(var(--hue),10%,10%);
-	--fg2: hsl(var(--hue),10%,20%);
-	--primary1: hsl(var(--hue),90%,55%);
-	--primary2: hsl(var(--hue),90%,45%);
-	font-size: calc(20px + (40 - 20) * (100vw - 320px) / (1280 - 320));
-	border: 0;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background-color: transparent;
-	border-radius: 1.5em;
-	display: block;
-	position: relative;
-	transition: width 0.3s ease-in-out;
+  --hue: 223;
+  --bg1: hsl(var(--hue), 10%, 90%);
+  --bg2: hsl(var(--hue), 10%, 80%);
+  --fg1: hsl(var(--hue), 10%, 10%);
+  --fg2: hsl(var(--hue), 10%, 20%);
+  --primary1: hsl(var(--hue), 90%, 55%);
+  --primary2: hsl(var(--hue), 90%, 45%);
+  font-size: calc(20px + (40 - 20) * (100vw - 320px) / (1280 - 320));
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 1.5em;
+  display: block;
+  position: relative;
+  transition: width 0.3s ease-in-out;
 }
 .btn-nk:not(:disabled):active {
-	transform: translateY(0.1em);
+  transform: translateY(0.1em);
 }
 .btn__text {
-	background-color: var(--primary1);
-	border-radius: inherit;
-	color: hsl(0,0%,100%);
-	display: inline-block;
-	padding: 0.75em 1.5em;
-	transition:
-		background-color 0.15s linear,
-		color 0.15s 0.3s ease-in-out;
-	width: 100%;
+  background-color: var(--primary1);
+  border-radius: inherit;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  transition: background-color 0.15s linear, color 0.15s 0.3s ease-in-out;
+  width: 100%;
 }
 .btn:not(:disabled):focus .btn__text,
 .btn:not(:disabled):hover .btn__text {
-	background-color: var(--primary2);
+  background-color: var(--primary2);
 }
 .btn__progress {
-	overflow: visible;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 3em;
-	height: 3em;
-	visibility: hidden;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3em;
+  height: 3em;
+  visibility: hidden;
 }
 .btn__progress-track {
-	r: 12px;
-	stroke: var(--bg2);
-	stroke-width: 24;
+  r: 12px;
+  stroke: var(--bg2);
+  stroke-width: 24;
 }
 .btn__progress-fill {
-	stroke: var(--primary1);
-	stroke-dashoffset: 125.66;
+  stroke: var(--primary1);
+  stroke-dashoffset: 125.66;
 }
 .btn__progress-check {
-	stroke: hsl(0,0%,100%);
-	stroke-dashoffset: 34;
+  stroke: hsl(0, 0%, 100%);
+  stroke-dashoffset: 34;
 }
 
 /* Both states */
 .btn--running,
 .btn--done {
-	outline: none;
-	pointer-events: none;
-	width: 3em;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
+  outline: none;
+  pointer-events: none;
+  width: 3em;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 .btn--running .btn__text,
 .btn--done .btn__text {
-	color: transparent;
-	transition:
-		background-color 0.3s ease-in-out,
-		visibility 0.3s steps(1);
+  color: transparent;
+  transition: background-color 0.3s ease-in-out, visibility 0.3s steps(1);
 }
 .btn--running .btn__progress,
 .btn--done .btn__progress {
-	visibility: visible;
+  visibility: visible;
 }
 
 /* Running state */
 .btn--running .btn__text {
-	background-color: var(--bg2);
-	visibility: hidden;
+  background-color: var(--bg2);
+  visibility: hidden;
 }
 .btn--running .btn__progress {
-	transition: visibility 0.3s 0.3s steps(1,start);
+  transition: visibility 0.3s 0.3s steps(1, start);
 }
 .btn--running .btn__progress-track {
-	r: 20px;
-	stroke-width: 8;
-	transition:
-		r 0.3s 0.3s ease-in-out,
-		stroke-width 0.3s 0.3s ease-in-out;
+  r: 20px;
+  stroke-width: 8;
+  transition: r 0.3s 0.3s ease-in-out, stroke-width 0.3s 0.3s ease-in-out;
 }
 .btn--running .btn__progress-fill {
-	stroke-dashoffset: 0;
-	transition: stroke-dashoffset 2s 0.6s linear;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 2s 0.6s linear;
 }
 
 /* Done state */
 .btn--done .btn__progress-track {
-	stroke: var(--primary1);
-	transition:
-		r 0.3s ease-in-out,
-		stroke-width 0.3s ease-in-out;
+  stroke: var(--primary1);
+  transition: r 0.3s ease-in-out, stroke-width 0.3s ease-in-out;
 }
 .btn--done .btn__progress-check {
-	stroke-dashoffset: 0;
-	transition: stroke-dashoffset 0.3s 0.3s ease-out;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s 0.3s ease-out;
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
-	:root {
-		--bg1: hsl(var(--hue),10%,10%);
-		--bg2: hsl(var(--hue),10%,20%);
-		--fg1: hsl(var(--hue),10%,90%);
-		--fg2: hsl(var(--hue),10%,80%);
-	}
+  :root {
+    --bg1: hsl(var(--hue), 10%, 10%);
+    --bg2: hsl(var(--hue), 10%, 20%);
+    --fg1: hsl(var(--hue), 10%, 90%);
+    --fg2: hsl(var(--hue), 10%, 80%);
+  }
 }
