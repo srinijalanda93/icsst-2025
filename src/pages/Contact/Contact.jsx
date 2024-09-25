@@ -147,11 +147,10 @@ export default function Contact() {
           </div>
           <div className="col-10" style={{ fontFamily: "Nunito" }}></div>
         </div>
-
-        <div className="col-md-8 col-12 mt-5  p-0 bg-white h-100 ">
+        {/* <div className="col-md-8 col-12 mt-5  p-0 bg-white h-100 ">
           <table className="table">
             <tbody>
-              {/* First Row */}
+            
               <tr>
                 <td style={{ border: "none" }}>
                   <div>
@@ -184,7 +183,7 @@ export default function Contact() {
                   </div>
                 </td>
               </tr>
-              {/* Second Row */}
+             
               <tr>
                 <td style={{ border: "none" }}>
                   <div>
@@ -215,7 +214,7 @@ export default function Contact() {
                   </div>
                 </td>
               </tr>
-              {/* Third Row Spanning Across Two Columns */}
+            
               <tr>
                 <td style={{ border: "none" }} colSpan="2">
                   <div>
@@ -235,7 +234,9 @@ export default function Contact() {
             </tbody>
           </table>
         </div>
+       */}
       </div>
+       
     </>
   );
 }

@@ -200,7 +200,7 @@ export default function CallForPapers() {
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">25 March 2023</h5>
+              <h5 className="mt-4 fontControl">25 February 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center border-bottom-custom">
@@ -208,7 +208,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">Review Submission</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">15 April 2023</h5>
+              <h5 className="mt-4 fontControl">30 March 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center border-bottom-custom">
@@ -216,7 +216,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">20 April 2023</h5>
+              <h5 className="mt-4 fontControl">25 March 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center border-bottom-custom">
@@ -224,7 +224,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">03 May 2023</h5>
+              <h5 className="mt-4 fontControl">03 June 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center border-bottom-custom">
@@ -232,7 +232,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl"> 08 & 09th May 2023</h5>
+              <h5 className="mt-4 fontControl"> 05 & 06th June 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
@@ -240,7 +240,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">Result</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">20 April 2023</h5>
+              <h5 className="mt-4 fontControl">Update soon!</h5>
             </div>
           </div>
         </div>

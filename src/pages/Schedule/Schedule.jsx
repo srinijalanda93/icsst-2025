@@ -12,11 +12,11 @@ export default function Schedule() {
           <b>CHRIST (Deemed to be University), India & Modern College, Muscut</b>
         </div>
 
-        <div style={{ textAlign: "center", backgroundColor: "#15066b", color: "white" }} class="p-1">
+        {/* <div style={{ textAlign: "center", backgroundColor: "#15066b", color: "white" }} class="p-1">
           <b>DAY 1 (08.05.2023)</b>
-        </div>
+        </div> */}
 
-        <table class="table table-striped table-bordered">
+        {/* <table class="table table-striped table-bordered">
           <thead class="thead-dark">
             <tr>
               <th scope="col">DATE</th>
@@ -135,13 +135,13 @@ export default function Schedule() {
             </tr>
 
           </tbody>
-        </table>
+        </table> */}
       </div>
 
 
 
 
-      <div class="table-responsive p-5">
+      {/* <div class="table-responsive p-5">
         <div style={{ textAlign: "center", backgroundColor: "#15066b", color: "white" }} class="p-1">
           <b>DAY 2 (09.05.2023)</b>
         </div>
@@ -271,7 +271,9 @@ export default function Schedule() {
 
           </tbody>
         </table>
-      </div>
+      </div> */}
+
+<h1 style={{ textAlign: "center" }}>UPDATE SOON!</h1>
 
     </section>
   )

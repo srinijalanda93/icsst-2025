@@ -22,11 +22,11 @@ export default function KeynoteSpeakers() {
           </div>
         </div>
 
-        <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
+        {/* <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
           <img className="m-0 w-100 justify-content-end" src={i1} alt="..." />
-        </div>
+        </div> */}
       </div>
-      <div class="container-fluid" style={{ marginBottom: "30px" }}>
+      {/* <div class="container-fluid" style={{ marginBottom: "30px" }}>
         <div class="row m-0 p-0 justify-content-center">
 
           <div class="col-lg-3 col-md-4 col-sm-6 mx-2 my-2 col-12 ">
@@ -89,7 +89,9 @@ export default function KeynoteSpeakers() {
 
 
         </div>
-      </div>
+      </div> */}
+      <h1 style={{ textAlign: "center" }}>UPDATE SOON!</h1>
+
     </>
   );
 }

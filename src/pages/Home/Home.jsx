@@ -366,11 +366,11 @@ export default function Home() {
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">
-                Last date for submission of Full-Length paper
+              Last date for submission of Full length paper
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">25 March 2023</h5>
+              <h5 className="mt-4 fontControl">25 February 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -378,7 +378,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Review Submission</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">15 April 2023</h5>
+              <h5 className="mt-4 fontControl">30 March 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -386,7 +386,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">20 April 2023</h5>
+              <h5 className="mt-4 fontControl">25 March 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -394,7 +394,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">03 May 2023</h5>
+              <h5 className="mt-4 fontControl">03 June 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -402,7 +402,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl"> 08 & 09th May 2023</h5>
+              <h5 className="mt-4 fontControl"> 05 & 06th May 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center ">
@@ -410,7 +410,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Result</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">20 April 2023</h5>
+              <h5 className="mt-4 fontControl">Update soon</h5>
             </div>
           </div>
         </div>
@@ -658,31 +658,31 @@ export default function Home() {
           >
             <div className="row m-0 p-0">
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
-                <h5>Mr. Pravin Hungund</h5>
+                {/* <h5>Mr. Pravin Hungund</h5> */}
                 <p>
-                  Chief Technology Officer <br />
-                  Metaz Digital <br />
+                 UPADATE<br />
+                  SOON <br />
                   {/* Email: adhoc.khan@gmail.com */}
                 </p>
               </div>
 
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
-                <h5>Dr. Zahid Akhtar</h5>
+                {/* <h5>Dr. Zahid Akhtar</h5> */}
                 <p>
-                  State University of New York Polytechnic Institute C135
+                  UPDATE 
                   <br />
-                  USA
+                  SOON
                   <br />
                   {/* Email: mario.jose.divan.koller@intel.com  */}
                 </p>
               </div>
 
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-3 h-105">
-                <h5>Mr. Bharani P Jagan Mohan</h5>
+                {/* <h5>Mr. Bharani P Jagan Mohan</h5> */}
                 <p>
-                  Manager
+                  UPDATE
                   <br />
-                  Seagen
+                  SOON
                   <br />
                   <br />
                   {/* Email: dsingh@nust.na */}
