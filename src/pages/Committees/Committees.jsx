@@ -918,7 +918,7 @@ export default function Committees() {
           <div className="col-md-6 col-12 text-end">
             <img src={i1} className="img-fluid pt-4 media-query" alt="..." />
           </div>
-          <div className="row m-0 p-4">
+          {/* <div className="row m-0 p-4">
             <div className="col m-0 p-0">
               <h2 className="p-2">Organizing Committee</h2>
               <div className="row m-0 px-0 justify-content-center">
@@ -1127,9 +1127,14 @@ export default function Committees() {
               </div>
 
             </div>
-          </div>
+          </div> */}
+          <h1>Update soon!</h1>
         </div>
       </div>
     </div>
   );
 }
+
+{/* <>
+<h1>Update soon!</h1>
+</> */}

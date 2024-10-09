@@ -154,7 +154,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <marquee
+        {/* <marquee
           className="font-weight-bold"
           style={{
             fontFamily: "Nunito",
@@ -167,7 +167,7 @@ export default function Home() {
           }}
         >
           Results for Review Submission were Published on April 21, 2025
-        </marquee>
+        </marquee> */}
 
         <div className="col-12 mt-5">
           <h1
