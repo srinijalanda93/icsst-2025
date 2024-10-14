@@ -106,7 +106,7 @@ export default function Registration() {
               </button>
             </div>
 
-            <p className="text-center" style={{ fontFamily: "Nunito" }}>
+            {/* <p className="text-center" style={{ fontFamily: "Nunito" }}>
               <h5>Abstracted & Indexed In</h5>
               DBLP
               <br />
@@ -124,7 +124,7 @@ export default function Registration() {
               <br />
               zbMATH
               <br />
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

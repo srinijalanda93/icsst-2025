@@ -13,6 +13,8 @@ import BalamuruganEaswaran from "./pages/KeynoteSpeakers/BalamuruganEaswaran";
 import BharaniPJaganMohan from "./pages/KeynoteSpeakers/BharaniPJaganMohan";
 import Schedule from "./pages/Schedule/Schedule";
 import Contact from "./pages/Contact/Contact";
+//import TopicsDates from "./TopicDates/TopicsDates"; // Import TopicsDates
+
 // eslint-disable-next-line
 const bootstrapCSS = require("bootstrap/dist/css/bootstrap.css");
 // eslint-disable-next-line
@@ -35,9 +37,9 @@ root.render(
         <Route path="/BharaniPJaganMohan" element={<BharaniPJaganMohan />} />
         <Route path="/Schedule" element={<Schedule />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/TopicsDates" element={<TopicsDates />} /> New Route */}
       </Routes>
     </Base>
   </BrowserRouter>
 );
+

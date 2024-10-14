@@ -9,11 +9,13 @@ import { scroller } from "react-scroll";
 // import i4 from "../../assets/4.svg";
 // import i5 from "../../assets/5.svg";
 // import i6 from "../../assets/6.svg";
-import oman from "../../assets/MCBS_Logo.png";
+//import oman from "../../assets/MCBS_Logo.png";
 import bg from "../../assets/bg.svg";
 import si from "../../assets/callpapers.svg";
 import poster from "../../assets/poster.png";
 // import oman from "../../assets/OMAN.png";
+import christlogo from "../../assets/logoofchristies.png";
+import oman from "../../assets/UNigeria.png";
 import texila from "../../assets/Texila.png";
 import UBuraimi from "../../assets/UBuraimi.png";
 import Ucinicinnati from "../../assets/resizeCincinnati.png";
@@ -79,77 +81,13 @@ export default function Home() {
           className="row justify-content-between align-items-center m-0 p-0"
           // style={{ display: "inline", alignContent: "flex-start" }}
         >
-          <div className="col">
-            <img
-              src={oman}
-              alt="modern college of bussines and science"
-              width="208"
-              className="align-text-top img-fluid"
-            />
-            {/* <img src={oman} alt="..."  width="208" className="align-text-top oman" /> */}
-          </div>
-          <div className="col">
-            <img
-              src={texila}
-              alt="Texila American University Zambia"
-              width="208"
-              className="align-text-top img-fluid"
-            />
-          </div>
-          <div className="col">
-            <img
-              src={Ucinicinnati}
-              alt="University of Cincinnati"
-              width="208"
-              className="align-text-top img-fluid"
-            />
-          </div>
-          <div className="col">
-            <img
-              src={lincoln}
-              alt="University of Cincinnati"
-              width="208"
-              className="align-text-top img-fluid"
-            />
-          </div>
-          <div className="col">
-            <img
-              src={UBuraimi}
-              alt="University of Buraimi"
-              width="208"
-              height="200"
-              className="align-text-top img-fluid"
-            />
-          </div>
-
-          <div className="col">
-            <img
-              src={Unizwaz}
-              alt="University of nizwaz"
-              width="208"
-              className="align-text-top img-fluid"
-            />
-          </div>
-
-          <div className="col">
-            {/* <marquee
-              className="font-weight-bold"
-              style={{
-                fontFamily: "Nunito",
-                fontWeight: "600",
-                fontSize: "1.3rem",
-                color: "nk-blue-bg",
-              }}
-            >
-              Results for Review Submission were Published on April 21, 2023
-            </marquee> */}
-          </div>
           {/* {CHRIST LOGO} */}
-          <div className="col text-end ">
+          <div className="col text-end">
             <img
               src="https://christuniversity.in/images/logo.jpg"
               alt="Christ (Deemed to be) University Logo"
-              width="208"
+              width="30%"
+              height="3%"
               className="align-text-top img-fluid"
             />
           </div>
@@ -179,9 +117,10 @@ export default function Home() {
               <span
                 style={{
                   fontWeight: "600",
-                  fontSize: "1.7rem",
+                  fontSize: "1.42rem",
                   marginTop: "1rem",
                   color: "nk-blue-bg",
+                  textAlign: "center",
                 }}
               >
                 INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND
@@ -353,7 +292,7 @@ export default function Home() {
       {/* important dates */}
       <div
         id="dates"
-        className="row m-0 p-0 text-light align-items-center nk-bg-7"
+        className="row m-0 p-0 text-light align-items-center nk-bg-7 CaPaFoIm"
       >
         <div className="col-md-3 col-12 m-0 p-4 ">
           <h2>Important Dates</h2>
@@ -366,19 +305,11 @@ export default function Home() {
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">
-              Last date for submission of Full length paper
+                Last date for submission of Full length paper
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
               <h5 className="mt-4 fontControl">25 February 2025</h5>
-            </div>
-          </div>
-          <div className="row m-0 p-3 align-items-center border-bottom-custom">
-            <div className="col m-0 p-0">
-              <h5 className="mt-4 fontControl">Review Submission</h5>
-            </div>
-            <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">30 March 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -391,10 +322,20 @@ export default function Home() {
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">
+                Camera ready submission with copy right
+              </h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+              <h5 className="mt-4 fontControl">30 March 2025</h5>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">03 June 2025</h5>
+              <h5 className="mt-4 fontControl">10 April 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -402,7 +343,7 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl"> 05 & 06th May 2025</h5>
+              <h5 className="mt-4 fontControl"> 05 & 06th June 2025</h5>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center ">
@@ -416,209 +357,151 @@ export default function Home() {
         </div>
       </div>
 
-      {/* presentation topics */}
-      <div className="row m-0 p-0 text-light nk-bg-1 align-items-center">
-        <div className="col-md-3 col-12 m-0 p-0 p-4">
-          <h2>Presentation Topics </h2>
+      {/* presentation topic */}
+
+      <div
+        id="dates"
+        className="row mt-4 p-0 text-light align-items-center nk-bg-4 CaPaFoIm"
+      >
+        <div className="col-md-3 col-12 m-0 p-4 ">
+          <h2>Important Dates</h2>
         </div>
         <div
-          className="col-md-9 col-12 m-0 p-0"
+          className="col-md-9 col-12 m-0 p-4 nk-bg-5"
           style={{ fontFamily: "Nunito" }}
         >
-          <div className="row m-0 p-0 align-items-end">
-            <div
-              className="col m-0 p-4 nk-bg-2 "
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/AI`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
-              >
-                Artificial Intelligence
-              </h5>
+          {/* change the padding-inline-block here */}
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Artifical Intelligence</h5>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-3 "
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/BT`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
+            <div className="col m-0 p-0 text-end">
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/AI")}
               >
-                Blockchain Technology
-              </h5>
+                Learn More
+              </button>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-4 "
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/CC`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
-              >
-                Cloud Computing
-              </h5>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Blockchain Technology</h5>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-5"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/CS`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
+            <div className="col m-0 p-0 text-end">
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/BT")}
               >
-                Cyber <br />
-                Security
-              </h5>
+                Learn More
+              </button>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-6"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/DS`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Cloud Computing</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/CC")}
               >
-                Data <br />
-                Science
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Cyber Security</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/CS")}
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Data Science</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+              <h5 className="mt-4 fontControl">
+                {" "}
+                <button
+                  className="btn btn-outline-light"
+                  onClick={() => navigate("/callForPapers/DS")}
+                >
+                  Learn More
+                </button>
               </h5>
             </div>
           </div>
-          <div className="row m-0 p-0 align-items-end ">
-            <div
-              className="col m-0 p-4 nk-bg-7"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/EC`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "7rem",
-                }}
-              >
-                E-Commerce
-              </h5>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">E-Commerce</h5>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-8"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/HPCA`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "6.5rem",
-                }}
-              >
-                Computer Architectures
-              </h5>
+            <div className="col m-0 p-0 text-end">
+            <button
+          className="btn btn-outline-light"
+          onClick={() => navigate("/callForPapers/EC")}
+        >
+          Learn More
+        </button>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-9"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/IMP`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "5rem",
-                }}
-              >
-                Image and Video Processing
-              </h5>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Computer Architectures</h5>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-10"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/PPD`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "4rem",
-                }}
-              >
-                Pandemic Prepardness and Digital Technology
-              </h5>
+            <div className="col m-0 p-0 text-end">
+            <button
+          className="btn btn-outline-light"
+          onClick={() => navigate("/callForPapers/HPCA")}
+        >
+          Learn More
+        </button>
             </div>
-            <div
-              className="col m-0 p-4 nk-bg-11"
-              style={{ cursor: "pointer", height: "200px" }}
-              onClick={(e) => {
-                let path = `/callForPapers/PRC`;
-                navigate(path);
-              }}
-            >
-              <h5
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                  letterSpacing: "0.05rem",
-                  paddingTop: "4rem",
-                }}
-              >
-                Pattern Recognization and Classification
-              </h5>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">Image and Video Processing</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+            <button
+          className="btn btn-outline-light"
+          onClick={() => navigate("/callForPapers/IMP")}
+        >
+          Learn More
+        </button>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl"> Pandemic Preparedness and Digital Technology</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+            <button
+          className="btn btn-outline-light"
+          onClick={() => navigate("/callForPapers/PPD")}
+        >
+          Learn More
+        </button>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl"> Pattern Recognition and Classification</h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+            <button
+          className="btn btn-outline-light"
+          onClick={() => navigate("/callForPapers/PRC")}
+        >
+          Learn More
+        </button>
             </div>
           </div>
         </div>
@@ -641,6 +524,78 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Bottom University collaboration */}
+
+      <div
+        className="row justify-content-round align-items-center mx-5 px-5 py-3"
+        // style={{ display: "inline", alignContent: "flex-start" }}
+      >
+        <div className="col ">
+          <img
+            src={oman}
+            alt="modern college of bussines and science"
+            width="208"
+            className="align-text-top img-fluid"
+          />
+          {/* <img src={oman} alt="..."  width="208" className="align-text-top oman" /> */}
+        </div>
+        <div className="col">
+          <img
+            src={texila}
+            alt="Texila American University Zambia"
+            width="208"
+            className="align-text-top img-fluid"
+          />
+        </div>
+        <div className="col">
+          <img
+            src={Ucinicinnati}
+            alt="University of Cincinnati"
+            width="208"
+            className="align-text-top img-fluid"
+          />
+        </div>
+        <div className="col">
+          <img
+            src={lincoln}
+            alt="University of Cincinnati"
+            width="208"
+            className="align-text-top img-fluid"
+          />
+        </div>
+        <div className="col">
+          <img
+            src={UBuraimi}
+            alt="University of Buraimi"
+            width="208"
+            height="200"
+            className="align-text-top img-fluid"
+          />
+        </div>
+
+        <div className="col">
+          <img
+            src={Unizwaz}
+            alt="University of nizwaz"
+            width="208"
+            className="align-text-top img-fluid"
+          />
+        </div>
+
+        <div className="col">
+          {/* <marquee
+              className="font-weight-bold"
+              style={{
+                fontFamily: "Nunito",
+                fontWeight: "600",
+                fontSize: "1.3rem",
+                color: "nk-blue-bg",
+              }}
+            >
+              Results for Review Submission were Published on April 21, 2023
+            </marquee> */}
+        </div>
+      </div>
       {/* keynote speakers */}
       <div>
         <div className="p-4"></div>
@@ -660,7 +615,8 @@ export default function Home() {
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
                 {/* <h5>Mr. Pravin Hungund</h5> */}
                 <p>
-                 UPADATE<br />
+                  UPADATE
+                  <br />
                   SOON <br />
                   {/* Email: adhoc.khan@gmail.com */}
                 </p>
@@ -669,7 +625,7 @@ export default function Home() {
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
                 {/* <h5>Dr. Zahid Akhtar</h5> */}
                 <p>
-                  UPDATE 
+                  UPDATE
                   <br />
                   SOON
                   <br />

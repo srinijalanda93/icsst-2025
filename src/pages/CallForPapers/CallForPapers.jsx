@@ -184,34 +184,27 @@ export default function CallForPapers() {
       {/* important dates */}
       <div
         id="dates"
-        className="row text-light align-items-center nk-bg-7 CaPaFoIm"
+        className="row  text-light align-items-center nk-bg-7 CaPaFoIm"
       >
-        <div className="col-md-3 col-12 m-0 p-4">
+        <div className="col-md-3 col-12 m-0 p-4 ">
           <h2>Important Dates</h2>
         </div>
         <div
           className="col-md-9 col-12 m-0 p-4 nk-bg-1"
           style={{ fontFamily: "Nunito" }}
         >
-          <div className="row m-0  align-items-center border-bottom-custom">
+          {/* change the padding-inline-block here */}
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">
-                Last date for submission of Full Length paper
+                Last date for submission of Full length paper
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
               <h5 className="mt-4 fontControl">25 February 2025</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center border-bottom-custom">
-            <div className="col m-0 p-0">
-              <h5 className="mt-4 fontControl">Review Submission</h5>
-            </div>
-            <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">30 March 2025</h5>
-            </div>
-          </div>
-          <div className="row m-0 p-4 align-items-center border-bottom-custom">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
@@ -219,15 +212,25 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">25 March 2025</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center border-bottom-custom">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
+            <div className="col m-0 p-0">
+              <h5 className="mt-4 fontControl">
+                Camera ready submission with copy right
+              </h5>
+            </div>
+            <div className="col m-0 p-0 text-end">
+              <h5 className="mt-4 fontControl">30 March 2025</h5>
+            </div>
+          </div>
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">03 June 2025</h5>
+              <h5 className="mt-4 fontControl">10 April 2025</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center border-bottom-custom">
+          <div className="row m-0 p-3 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
@@ -235,12 +238,12 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl"> 05 & 06th June 2025</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-3 align-items-center ">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Result</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">Update soon!</h5>
+              <h5 className="mt-4 fontControl">Update soon</h5>
             </div>
           </div>
         </div>
@@ -485,11 +488,11 @@ export default function CallForPapers() {
           </div>
         </div>
         <div className="row m-0 p-0" id="Iot">
-          <div className="col-md-4 m-0 p-5 text-light nk-bg-31 ">
+          <div className="col-md-4 m-0 p-5 text-light nk-bg-21 ">
             <p class="fs-3">Wireless Communications </p>
           </div>
           <div
-            className="col m-0 p-5 text-light nk-bg-24 h-105"
+            className="col m-0 p-5 text-light nk-bg-14 h-105"
             style={{ fontFamily: "Nunito" }}
           >
             Broadcast Channels and Information Theory, Cooperative Networking,

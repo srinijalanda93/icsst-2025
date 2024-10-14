@@ -4,3 +4,218 @@ Camera ready submission with copyright
 30 March 2025
 Date for registration 03 June 2025
 Conference Date 5-6 June 2025
+
+14/10/2024
+change in the home 
+1.christ logo
+2. alignment of iccst center
+3.tried university neee to paddingBottom
+4.presentation topics
+
+{/* presentation topics */}
+<div className="row mt-3 p-0 text-light nk-bg-1 align-items-center">
+  <div className="col-md-3 col-12 m-0 p-0 p-4">
+    <h2>Presentation Topics </h2>
+  </div>
+  <div
+    className="col-md-9 col-12 m-0 p-0"
+    style={{ fontFamily: "Nunito" }}
+  >
+    <div className="row m-0 p-0 align-items-end">
+      <div
+        className="col m-0 p-4 nk-bg-2 "
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/AI`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Artificial Intelligence
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-3 "
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/BT`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Blockchain Technology
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-4 "
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/CC`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Cloud Computing
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-5"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/CS`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Cyber <br />
+          Security
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-6"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/DS`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Data <br />
+          Science
+        </h5>
+      </div>
+    </div>
+    <div className="row m-0 p-0 align-items-end ">
+      <div
+        className="col m-0 p-4 nk-bg-7"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/EC`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "7rem",
+          }}
+        >
+          E-Commerce
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-8"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/HPCA`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "6.5rem",
+          }}
+        >
+          Computer Architectures
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-9"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/IMP`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "5rem",
+          }}
+        >
+          Image and Video Processing
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-10"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/PPD`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "4rem",
+          }}
+        >
+          Pandemic Prepardness and Digital Technology
+        </h5>
+      </div>
+      <div
+        className="col m-0 p-4 nk-bg-11"
+        style={{ cursor: "pointer", height: "200px" }}
+        onClick={(e) => {
+          let path = `/callForPapers/PRC`;
+          navigate(path);
+        }}
+      >
+        <h5
+          style={{
+            fontWeight: "bold",
+            fontSize: "20px",
+            letterSpacing: "0.05rem",
+            paddingTop: "4rem",
+          }}
+        >
+          Pattern Recognization and Classification
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
