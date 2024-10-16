@@ -531,8 +531,63 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Bottom University collaboration */}
+      
 
+      
+      {/* keynote speakers */}
+      <div>
+        <div className="p-4"></div>
+        <div
+          id="experts"
+          className="row m-0 p-0 align-items-center "
+        // style={{ height: "14rem" }}
+        >
+          <div className="col-md-3 col-12 m-0 p-0 text-center">
+            <h3>KEYNOTE SPEAKERS</h3>
+          </div>
+          <div
+            className="col-md-9 col-12 m-0 p-0"
+            style={{ fontFamily: "Nunito" }}
+          >
+            <div className="row m-0 p-0">
+              <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
+                {/* <h5>Mr. Pravin Hungund</h5> */}
+                <p>
+                  UPADATE
+                  <br />
+                  SOON <br />
+                  {/* Email: adhoc.khan@gmail.com */}
+                </p>
+              </div>
+
+              <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
+                {/* <h5>Dr. Zahid Akhtar</h5> */}
+                <p>
+                  UPDATE
+                  <br />
+                  SOON
+                  <br />
+                  {/* Email: mario.jose.divan.koller@intel.com  */}
+                </p>
+              </div>
+
+              <div className="col-md-4 col m-0 p-4 text-light nk-bg-3 h-105">
+                {/* <h5>Mr. Bharani P Jagan Mohan</h5> */}
+                <p>
+                  UPDATE
+                  <br />
+                  SOON
+                  <br />
+                  <br />
+                  {/* Email: dsingh@nust.na */}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom University collaboration */}
       <div
         className="row justify-content-round align-items-center mx-5 px-5 py-3"
       // style={{ display: "inline", alignContent: "flex-start" }}
@@ -601,58 +656,6 @@ export default function Home() {
             >
               Results for Review Submission were Published on April 21, 2023
             </marquee> */}
-        </div>
-      </div>
-      {/* keynote speakers */}
-      <div>
-        <div className="p-4"></div>
-        <div
-          id="experts"
-          className="row m-0 p-0 align-items-center "
-        // style={{ height: "14rem" }}
-        >
-          <div className="col-md-3 col-12 m-0 p-0 text-center">
-            <h3>KEYNOTE SPEAKERS</h3>
-          </div>
-          <div
-            className="col-md-9 col-12 m-0 p-0"
-            style={{ fontFamily: "Nunito" }}
-          >
-            <div className="row m-0 p-0">
-              <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
-                {/* <h5>Mr. Pravin Hungund</h5> */}
-                <p>
-                  UPADATE
-                  <br />
-                  SOON <br />
-                  {/* Email: adhoc.khan@gmail.com */}
-                </p>
-              </div>
-
-              <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
-                {/* <h5>Dr. Zahid Akhtar</h5> */}
-                <p>
-                  UPDATE
-                  <br />
-                  SOON
-                  <br />
-                  {/* Email: mario.jose.divan.koller@intel.com  */}
-                </p>
-              </div>
-
-              <div className="col-md-4 col m-0 p-4 text-light nk-bg-3 h-105">
-                {/* <h5>Mr. Bharani P Jagan Mohan</h5> */}
-                <p>
-                  UPDATE
-                  <br />
-                  SOON
-                  <br />
-                  <br />
-                  {/* Email: dsingh@nust.na */}
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
