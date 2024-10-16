@@ -64,10 +64,10 @@ export default function CallForPapers() {
 
         <br />
         <br />
-        <div className="container-fluid ">
+        <div className="container-fluid px-0">
           <div className="col-md-11 col-11 m-0 p-0 bg-white h-100 ">
-            <div className="row m-0 p-0 mt-5 separate">
-              <div className="col-6 m-0 p-3">
+            <div className="px-0 row m-0 p-0 mt-5 separate">
+              <div className="px-0 col-6 m-0 p-3">
                 <h3>Paper Submission Template</h3>
 
                 <p style={{ fontFamily: "Nunito" }}>

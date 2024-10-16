@@ -915,9 +915,9 @@ export default function Committees() {
           <div className="col-md-6 col-12">
             <h1 className="p-2">COMMITTEES</h1>
           </div>
-          <div className="col-md-6 col-12 text-end">
+          {/* <div className="col-md-6 col-12 text-end">
             <img src={i1} className="img-fluid pt-4 media-query" alt="..." />
-          </div>
+          </div> */}
           {/* <div className="row m-0 p-4">
             <div className="col m-0 p-0">
               <h2 className="p-2">Organizing Committee</h2>
