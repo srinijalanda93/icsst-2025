@@ -158,7 +158,7 @@ export default function CallForPapers() {
           </button>
           <br />
           <br />
-          <p style={{ fontFamily: "Nunito" }}>
+          {/* <p style={{ fontFamily: "Nunito" }}>
             Abstracted and Indexed in:
             <ul>
               <li>DBLP</li>
@@ -170,7 +170,7 @@ export default function CallForPapers() {
               <li>SCOPUS</li>
               <li>zbMATH</li>
             </ul>
-          </p>
+          </p> */}
         </div>
 
         <div className="row m-0 p-0 ">
