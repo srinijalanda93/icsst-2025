@@ -37,7 +37,7 @@ export default function Home() {
   };
 
   const startTimer = () => {
-    const countdownDate = new Date("May 08,2023 00:00:00").getTime();
+    const countdownDate = new Date("June 05,2025 00:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -78,10 +78,9 @@ export default function Home() {
         style={{ minHeight: "60vh", backgroundImage: `url(${bg})` }}
       >
         <div
-          className="row justify-content-between align-items-center m-0 p-0"
-          // style={{ display: "inline", alignContent: "flex-start" }}
+          className="d-flex justify-content-between align-items-center m-0 p-0"
         >
-          {/* {CHRIST LOGO} */}
+          <div style={{ fontSize: "2.5rem", fontFamily: "Arial" }}>ICCSST - 2025</div>
           <div className="col text-end">
             <img
               src="https://christuniversity.in/images/logo.jpg"
@@ -110,11 +109,11 @@ export default function Home() {
         <div className="col-12 mt-5">
           <h1
             className="font-weight-bold"
-            style={{ fontFamily: "Arial", fontSize: "1.3rem" }}
+            style={{ fontFamily: "Arial", fontSize: "3rem" }}
           >
-            ICCSST - 2025 <br />
             <div style={{ marginTop: "1rem" }}>
-              <span
+              <p
+                className="text-start"
                 style={{
                   fontWeight: "600",
                   fontSize: "1.42rem",
@@ -125,7 +124,10 @@ export default function Home() {
               >
                 INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND
                 SUSTAINABLE TECHNOLOGIES
-              </span>
+              </p>
+              <p style={{ fontSize: "1.42rem", fontWeight: '600' }}>
+                In Collaboration with Department of Computer Science
+              </p>
             </div>
           </h1>
           <div style={{ marginTop: "1rem" }}>
@@ -142,62 +144,68 @@ export default function Home() {
             </h3>
           </div>
         </div>
-        <div className="col-md-6 col-12 m-0 p-0 py-1">
-          <div className="row m-0 p-0 text-light font-weight-bold">
-            <div className="col-md-8 col-12 m-0 p-0">
-              <div className="row m-0 my-2 p-0 p-4  nk-blue-bg justify-content-between">
-                <div className="col m-0 p-0">
-                  <h5 className="m-0 p-0">Start</h5>
-                  {/* Changing the data */}
-                  <p className="m-0 p-0 fs-3">05.06.2025</p>
-                </div>
-                <div className="col m-0 p-0 text-end">
-                  <h5 className="m-0 p-0">End</h5>
-                  <p className="m-0 p-0 fs-3">06.06.2025</p>
+
+        <div className="d-flex">
+          <div className="col-md-6 col-12 m-0 p-0 py-1">
+            <div className="row m-0 p-0 text-light font-weight-bold">
+              <div className="col-md-8 col-12 m-0 p-0">
+                <div className="row m-0 my-2 p-0 p-4  nk-blue-bg justify-content-between">
+                  <div className="col m-0 p-0">
+                    <h5 className="m-0 p-0">Start</h5>
+                    {/* Changing the data */}
+                    <p className="m-0 p-0 fs-3">05.06.2025</p>
+                  </div>
+                  <div className="col m-0 p-0 text-end">
+                    <h5 className="m-0 p-0">End</h5>
+                    <p className="m-0 p-0 fs-3">06.06.2025</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-md-4 col-12 m-0 p-0">
-          <div className="row m-0 p-4 textColorHour nk-yellow-bg justify-content-center align-items-end text-center ">
-            <div className="col-2 m-0 p-0 ">
-              <p>Days</p>
-              <h5 className="fs-5">{timerDays}</h5>
+
+          <div className="col-md-6 col-12 m-0 p-0 py-1">
+            <div className="col-md-8 col-12 m-0 p-0">
+              <div className="row m-0 p-4 textColorHour nk-yellow-bg justify-content-center align-items-end text-center ">
+                <div className="col-2 m-0 p-0 ">
+                  <p>Days</p>
+                  <h5 className="fs-5">{timerDays}</h5>
+                </div>
+                <div className="col-1 m-0 p-0">
+                  <h5 className="fs-5">:</h5>
+                </div>
+                <div className="col-2 m-0 p-0">
+                  <p>Hours</p>
+                  <h5 className="fs-5">{timerHours}</h5>
+                </div>
+                <div className="col-1 m-0 p-0">
+                  <h5 className="fs-5">:</h5>
+                </div>
+                <div className="col-2 m-0 p-0">
+                  <p>Min</p>
+                  <h5 className="fs-5">{timerMinutes}</h5>
+                </div>
+                <div className="col-1 m-0 p-0 ">
+                  <h5 className="fs-5">:</h5>
+                </div>
+                <div className="col-2 m-0 p-0">
+                  <p>Sec</p>
+                  <h5 className="fs-5">{timerSeconds}</h5>
+                </div>
+              </div>
             </div>
-            <div className="col-1 m-0 p-0">
-              <h5 className="fs-5">:</h5>
-            </div>
-            <div className="col-2 m-0 p-0">
-              <p>Hours</p>
-              <h5 className="fs-5">{timerHours}</h5>
-            </div>
-            <div className="col-1 m-0 p-0">
-              <h5 className="fs-5">:</h5>
-            </div>
-            <div className="col-2 m-0 p-0">
-              <p>Min</p>
-              <h5 className="fs-5">{timerMinutes}</h5>
-            </div>
-            <div className="col-1 m-0 p-0 ">
-              <h5 className="fs-5">:</h5>
-            </div>
-            <div className="col-2 m-0 p-0">
-              <p>Sec</p>
-              <h5 className="fs-5">{timerSeconds}</h5>
-            </div>
-          </div>
-          <div className="row m-0 p-0 justify-content-end">
-            <div className="col-md-8 col-12 m-0 p-0 ">
-              <div className=" text-center border-0 m-0 my-2 p-0">
-                <div
-                  className="nk-blue-bg p-3 px-5 text-light nk-btn fw-bold"
-                  onClick={(e) => {
-                    let path = `/callForPapers/mainpage`;
-                    navigate(path);
-                  }}
-                >
-                  Call for Papers
+            <div className="row m-0 p-0 justify-content-start">
+              <div className="col-md-5 col-12 m-0 p-0 ">
+                <div className=" text-center border-0 m-0 my-2 p-0">
+                  <div
+                    className="nk-blue-bg p-3 px-5 text-light nk-btn fw-bold"
+                    onClick={(e) => {
+                      let path = `/callForPapers/mainpage`;
+                      navigate(path);
+                    }}
+                  >
+                    Call for Papers
+                  </div>
                 </div>
               </div>
             </div>
@@ -292,7 +300,7 @@ export default function Home() {
       {/* important dates */}
       <div
         id="dates"
-        className="row m-0 p-0 text-light align-items-center nk-bg-7 CaPaFoIm"
+        className="row p-0 text-light align-items-center nk-bg-7 CaPaFoIm"
       >
         <div className="col-md-3 col-12 m-0 p-4 ">
           <h2>Important Dates</h2>
@@ -360,11 +368,11 @@ export default function Home() {
       {/* presentation topic */}
 
       <div
-        id="dates"
+        id="topics"
         className="row mt-4 p-0 text-light align-items-center nk-bg-4 CaPaFoIm"
       >
         <div className="col-md-3 col-12 m-0 p-4 ">
-          <h2>Important Dates</h2>
+          <h2>Important Topics</h2>
         </div>
         <div
           className="col-md-9 col-12 m-0 p-4 nk-bg-5"
@@ -444,12 +452,12 @@ export default function Home() {
               <h5 className="mt-4 fontControl">E-Commerce</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-            <button
-          className="btn btn-outline-light"
-          onClick={() => navigate("/callForPapers/EC")}
-        >
-          Learn More
-        </button>
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/EC")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -457,12 +465,12 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Computer Architectures</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-            <button
-          className="btn btn-outline-light"
-          onClick={() => navigate("/callForPapers/HPCA")}
-        >
-          Learn More
-        </button>
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/HPCA")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -470,12 +478,12 @@ export default function Home() {
               <h5 className="mt-4 fontControl">Image and Video Processing</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-            <button
-          className="btn btn-outline-light"
-          onClick={() => navigate("/callForPapers/IMP")}
-        >
-          Learn More
-        </button>
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/IMP")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center border-bottom-custom">
@@ -483,12 +491,12 @@ export default function Home() {
               <h5 className="mt-4 fontControl"> Pandemic Preparedness and Digital Technology</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-            <button
-          className="btn btn-outline-light"
-          onClick={() => navigate("/callForPapers/PPD")}
-        >
-          Learn More
-        </button>
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/PPD")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
           <div className="row m-0 p-3 align-items-center">
@@ -496,12 +504,12 @@ export default function Home() {
               <h5 className="mt-4 fontControl"> Pattern Recognition and Classification</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-            <button
-          className="btn btn-outline-light"
-          onClick={() => navigate("/callForPapers/PRC")}
-        >
-          Learn More
-        </button>
+              <button
+                className="btn btn-outline-light"
+                onClick={() => navigate("/callForPapers/PRC")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
         </div>
@@ -513,7 +521,7 @@ export default function Home() {
         <div
           id="experts"
           className="row m-0 p-0 align-items-center "
-          // style={{ height: "14rem" }}
+        // style={{ height: "14rem" }}
         >
           <img
             src={poster}
@@ -528,7 +536,7 @@ export default function Home() {
 
       <div
         className="row justify-content-round align-items-center mx-5 px-5 py-3"
-        // style={{ display: "inline", alignContent: "flex-start" }}
+      // style={{ display: "inline", alignContent: "flex-start" }}
       >
         <div className="col ">
           <img
@@ -602,7 +610,7 @@ export default function Home() {
         <div
           id="experts"
           className="row m-0 p-0 align-items-center "
-          // style={{ height: "14rem" }}
+        // style={{ height: "14rem" }}
         >
           <div className="col-md-3 col-12 m-0 p-0 text-center">
             <h3>KEYNOTE SPEAKERS</h3>
