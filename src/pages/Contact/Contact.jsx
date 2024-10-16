@@ -21,13 +21,13 @@ export default function Contact() {
           <div className="col-10" style={{ fontFamily: "Nunito" }}></div>
         </div>
 
-        <div className="col-md-5 col-12 m-0 mt-5 p-0 bg-white h-100 ">
+        {/* <div className="col-md-5 col-12 m-0 mt-5 p-0 bg-white h-100 ">
           <img
             className="m-0 w-100 justify-content-end media-query"
             src={i1}
             alt="..."
           />
-        </div>
+        </div> */}
 
         <div className="mt-5 justify-content-center text-center" id="contact">
           <h3> Tell us your queries</h3>

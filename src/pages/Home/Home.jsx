@@ -113,7 +113,6 @@ export default function Home() {
           >
             <div style={{ marginTop: "1rem" }}>
               <p
-                className="text-start"
                 style={{
                   fontWeight: "600",
                   fontSize: "1.42rem",
@@ -122,10 +121,9 @@ export default function Home() {
                   textAlign: "center",
                 }}
               >
-                INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND
-                SUSTAINABLE TECHNOLOGIES
+                INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND SUSTAINABLE TECHNOLOGIES
               </p>
-              <p style={{ fontSize: "1.42rem", fontWeight: '600' }}>
+              <p style={{ fontSize: "1.42rem", fontWeight: '600', textAlign:'center' }}>
                 In Collaboration with Department of Computer Science
               </p>
             </div>
@@ -137,6 +135,7 @@ export default function Home() {
                 fontSize: "1.2rem",
                 fontWeight: 550,
                 textTransform: "uppercase",
+                textAlign:'center'
               }}
             >
               Republic of Zambia | United States of America | Federation of

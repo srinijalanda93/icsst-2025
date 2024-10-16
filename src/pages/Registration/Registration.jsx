@@ -31,13 +31,13 @@ export default function Registration() {
                     </p> */}
         </div>
 
-        <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
+        {/* <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
           <img
             className="m-0 w-100 justify-content-end media-query"
             src={i1}
             alt="..."
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="container-fluid">
@@ -143,8 +143,8 @@ export default function Registration() {
                 Submit your details for further updates regarding the Conference
               </h3>
 
-              <div class="row  g-3  justify-content-center text-center mt-4">
-                <div class="col-md-6 col-12">
+              <div class="d-flex flex-column items gap-2 align-items-center justify-content-center text-center mt-4" style={{width:"97vw"}}>
+                <div class="">
                   <label for="inputName" class="visually-hidden">
                     Name
                   </label>{" "}
@@ -156,7 +156,7 @@ export default function Registration() {
                     placeholder="Name"
                   />
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="">
                   <label for="inputEmail" class="visually-hidden">
                     Email
                   </label>{" "}
@@ -169,7 +169,7 @@ export default function Registration() {
                   />
                 </div>
 
-                <div class="col-12">
+                <div>
                   <button
                     type="submit"
                     class="btn btn-primary"
