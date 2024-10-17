@@ -1,16 +1,20 @@
 import React from 'react'
+import Header from '../HeaderCom/Header';
 export default function Schedule() {
   return (
     <section>
       <div class="table-responsive p-5">
 
         <div className="col-md-12 col-12 m-0 p-0">
+        <div>
+      <Header />
+    </div>
           <h1>Schedule</h1><br />
         </div>
-
-        <div style={{ textAlign: "center", backgroundColor: "#f3f1ff", color: "#15066b", border: "2px solid black" }} class="p-2">
-          <b>CHRIST (Deemed to be University), India & Modern College, Muscut</b>
-        </div>
+       
+        {/* <div style={{ textAlign: "center", backgroundColor: "#f3f1ff", color: "#15066b", border: "2px solid black" }} class="p-2">
+          <b>CHRIST (Deemed to be University)</b>
+        </div> */}
 
         {/* <div style={{ textAlign: "center", backgroundColor: "#15066b", color: "white" }} class="p-1">
           <b>DAY 1 (08.05.2023)</b>

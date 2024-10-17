@@ -4,6 +4,7 @@ import { scroller } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import PeopleCard from "./PeopleCard";
 import i1 from "../../assets/callpapers.svg";
+import Header from '../HeaderCom/Header';
 
 export default function Committees() {
   const location = useLocation();
@@ -912,7 +913,9 @@ export default function Committees() {
     <div>
       <div className="" id="mainpage">
         <div className="row m-0 p-2 align-items-center">
+        <div className="my-3 mx-2"> <Header/></div>
           <div className="col-md-6 col-12">
+        
             <h1 className="p-2">COMMITTEES</h1>
           </div>
           {/* <div className="col-md-6 col-12 text-end">
@@ -1128,7 +1131,7 @@ export default function Committees() {
 
             </div>
           </div> */}
-          <h1>Update soon!</h1>
+          <h1  style={{ textAlign: "center" }}>Update soon!</h1>
         </div>
       </div>
     </div>

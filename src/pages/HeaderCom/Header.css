@@ -1,0 +1,16 @@
+.img-fluid {
+  width: 26% !important; 
+  height: 20% !important; 
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-text-top {
+  vertical-align: top;
+}
+
+
+
+

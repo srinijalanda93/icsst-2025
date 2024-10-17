@@ -219,12 +219,26 @@ h3 {
 .oman {
   width: 8rem;
 }
+.TimerDiv {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px),
   only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .TimerDiv{
+      display:flex;
+      flex-direction: row;
+    }
+    .img-fluid {
+      width: 26%; 
+      height: 10%; 
+    }
   .oman {
-    width: 3rem;
+    width: 10rem;
   }
+ 
+
   .no-mob {
     display: none;
   }

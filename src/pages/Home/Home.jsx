@@ -10,6 +10,8 @@ import { scroller } from "react-scroll";
 // import i5 from "../../assets/5.svg";
 // import i6 from "../../assets/6.svg";
 //import oman from "../../assets/MCBS_Logo.png";
+import '../../index.css';
+import Header from '../HeaderCom/Header';
 import bg from "../../assets/bg.svg";
 import si from "../../assets/callpapers.svg";
 import poster from "../../assets/poster.png";
@@ -77,20 +79,9 @@ export default function Home() {
         className="row m-0 p-0 p-5 justify-content-between align-items-center"
         style={{ minHeight: "60vh", backgroundImage: `url(${bg})` }}
       >
-        <div
-          className="d-flex justify-content-between align-items-center m-0 p-0"
-        >
-          <div style={{ fontSize: "2.5rem", fontFamily: "Arial" }}>ICCSST - 2025</div>
-          <div className="col text-end">
-            <img
-              src="https://christuniversity.in/images/logo.jpg"
-              alt="Christ (Deemed to be) University Logo"
-              width="30%"
-              height="3%"
-              className="align-text-top img-fluid"
-            />
-          </div>
-        </div>
+      <div>
+      <Header />
+    </div>
         {/* <marquee
           className="font-weight-bold"
           style={{
@@ -144,7 +135,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="d-flex">
+        <div className="d-flex TimerDiv">
           <div className="col-md-6 col-12 m-0 p-0 py-1">
             <div className="row m-0 p-0 text-light font-weight-bold">
               <div className="col-md-8 col-12 m-0 p-0">
@@ -589,7 +580,7 @@ export default function Home() {
 
       {/* Bottom University collaboration */}
       <div
-        className="row justify-content-round align-items-center mx-5 px-5 py-3"
+        className="row justify-content-round align-items-center mx-5 px-5 py-3 bottom-image"
       // style={{ display: "inline", alignContent: "flex-start" }}
       >
         <div className="col ">
@@ -597,7 +588,7 @@ export default function Home() {
             src={oman}
             alt="modern college of bussines and science"
             width="208"
-            className="align-text-top img-fluid"
+            className="align-text-top"
           />
           {/* <img src={oman} alt="..."  width="208" className="align-text-top oman" /> */}
         </div>
@@ -606,7 +597,7 @@ export default function Home() {
             src={texila}
             alt="Texila American University Zambia"
             width="208"
-            className="align-text-top img-fluid"
+            className="align-text-top"
           />
         </div>
         <div className="col">
@@ -614,7 +605,7 @@ export default function Home() {
             src={Ucinicinnati}
             alt="University of Cincinnati"
             width="208"
-            className="align-text-top img-fluid"
+            className="align-text-top"
           />
         </div>
         <div className="col">
@@ -622,7 +613,7 @@ export default function Home() {
             src={lincoln}
             alt="University of Cincinnati"
             width="208"
-            className="align-text-top img-fluid"
+            className="align-text-top"
           />
         </div>
         <div className="col">
@@ -631,7 +622,7 @@ export default function Home() {
             alt="University of Buraimi"
             width="208"
             height="200"
-            className="align-text-top img-fluid"
+            className="align-text-top"
           />
         </div>
 
@@ -640,7 +631,7 @@ export default function Home() {
             src={Unizwaz}
             alt="University of nizwaz"
             width="208"
-            className="align-text-top img-fluid"
+            className="align-text-top "
           />
         </div>
 

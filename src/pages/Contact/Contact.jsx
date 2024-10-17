@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import i1 from "../../assets/callpapers.svg";
-
+import Header from '../HeaderCom/Header';
 import { scroller } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -10,13 +10,16 @@ export default function Contact() {
   return (
     <>
       <div className="row m-3 p-2 mt-5 align-items-center " id="mainpage">
+      <div className="my-3">
+      <Header />
+    </div>
         <div className="col-md-7  mt-5  col-12 m-0 p-0">
           <div>
-            <br />
+          
             <br />
             <h1>Contact Us</h1>
             <br />
-            <br />
+          
           </div>
           <div className="col-10" style={{ fontFamily: "Nunito" }}></div>
         </div>

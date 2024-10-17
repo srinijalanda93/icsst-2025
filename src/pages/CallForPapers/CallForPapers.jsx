@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import i1 from "../../assets/callpapers.svg";
 import { scroller } from "react-scroll";
 import { useLocation } from "react-router-dom";
+import Header from '../HeaderCom/Header';
 
 export default function CallForPapers() {
   // let navigate = useNavigate();
@@ -19,13 +20,17 @@ export default function CallForPapers() {
   return (
     <>
       <div className="row m-3 p-2 mt-5 align-items-center " id="mainpage">
+     
         <div className="col-md-12  mt-5  col-12 m-0 p-0">
+        <div>
+      <Header />
+    </div>
           <div>
             <br />
-            <br />
+       
             <h1>Call for Papers</h1>
             <br />
-            <br />
+     
           </div>
           <div className="col-12 text-justify" style={{ fontFamily: "Nunito" }}>
             <p>

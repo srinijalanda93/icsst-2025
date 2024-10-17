@@ -4,6 +4,7 @@ import i1 from "../../assets/callpapers.svg";
 import { scroller } from "react-scroll";
 
 import { useLocation } from "react-router-dom";
+import Header from '../HeaderCom/Header';
 import person1 from "../../assets/person1.jpg";
 import person2 from "../../assets/person2.jpg";
 import person3 from "../../assets/person3.jpg";
@@ -12,13 +13,14 @@ export default function KeynoteSpeakers() {
   return (
     <>
       <div className="row m-3 p-2 mt-5 align-items-center " id="mainpage">
+      <div className="my-3">
+      <Header />
+    </div>
         <div className="col-md-7  mt-5  col-12 m-0 p-0">
           <div>
-            <br />
-            <br />
+          
             <h1>Keynote Speakers</h1>
-            <br />
-            <br />
+        
           </div>
         </div>
 
